@@ -1,0 +1,30 @@
+change your sudoers-file:
+
+vi /etc/sudoers    #and add (assuming it's your jenkins-user):
+
+Defaults:jenkins !authenticate
+jenkins ALL=ALL ALL
+
+
+Normally your jenkins user can use sudo-commands without authentication
+
+
+Create a file inside /etc/sudoers.d/ You can use this command
+
+sudo vim /etc/sudoers.d/privacy
+Now paste this line into the file.
+
+Defaults        lecture = always
+
+
+
+pkexec chmod 0755 /etc/sudoers.d
+pkexec chmod 0440 /etc/sudoers
+
+
+On CentOS possible default full paths are:
+/usr/bin/pkexec - from package: polkit
+
+You may install the required package with command yum install {package}
+
+pkexec chmod 0440 /etc/sudoers
