@@ -1,5 +1,5 @@
 <html>
 <body>
-<h2> hai nageswarao garu  congrats ! deployment got succeeded  ... check now </h2>
+<h2> hai nageswarao garu  congrats ! Dhora garu vachadu </h2>
 </body>
 </html>
