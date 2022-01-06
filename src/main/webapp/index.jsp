@@ -7,7 +7,7 @@
   </head>
   <body>
     <h2> hai nageswarao garu  congrats ! Dhora garu vachadu </h2>
-    <img src="images/firefox-icon.png" alt="My test image">
+    <img src="images/hi.jpg" alt="My test image">
   </body>
 </html>
 
